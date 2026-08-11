@@ -9,7 +9,7 @@
             "hash": "a804dccce07785df080c83963538aea3a4b77936d36ec51de8617a95e6ad37f7"
         }
     },
-    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse -ErrorAction Ignore",
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninstall.exe\" -Force -Recurse -ErrorAction Ignore",
     "bin": "shtil-vpn-desktop.exe",
     "shortcuts": [
         [
