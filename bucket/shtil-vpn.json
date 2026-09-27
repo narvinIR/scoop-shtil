@@ -1,12 +1,12 @@
 {
-    "version": "1.3.4",
+    "version": "1.3.9",
     "description": "Desktop client on the sing-box core (VLESS + Reality) with split routing",
     "homepage": "https://shtil.vip/",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/narvinIR/shtil-vpn-desktop/releases/download/desktop-v1.3.4/ShtilVPN_1.3.4_x64-setup.exe#/dl.7z",
-            "hash": "a804dccce07785df080c83963538aea3a4b77936d36ec51de8617a95e6ad37f7"
+            "url": "https://github.com/narvinIR/shtil-vpn/releases/download/apps/ShtilVPN-windows.exe#/dl.7z",
+            "hash": "7265e43f56de482781f265de5c54ab084ae3bf04d7089fa02bcc9db9298b1103"
         }
     },
     "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\uninstall.exe\" -Force -Recurse -ErrorAction Ignore",
@@ -29,7 +29,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/narvinIR/shtil-vpn-desktop/releases/download/desktop-v$version/ShtilVPN_$version_x64-setup.exe#/dl.7z"
+                "url": "https://github.com/narvinIR/shtil-vpn/releases/download/apps/ShtilVPN-windows.exe#/dl.7z"
             }
         }
     }
