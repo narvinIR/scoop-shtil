@@ -1,7 +1,7 @@
 {
     "version": "1.3.4",
     "description": "Desktop client on the sing-box core (VLESS + Reality) with split routing",
-    "homepage": "https://shtil.ndvsdom54.ru/",
+    "homepage": "https://shtil.vip/",
     "license": "MIT",
     "architecture": {
         "64bit": {
@@ -19,7 +19,7 @@
     ],
     "notes": [
         "The app also updates itself in place. On a Scoop install run 'scoop update shtil-vpn' instead, so Scoop and the app agree on the version.",
-        "The build carries no publisher certificate, so Windows Defender may quarantine it: https://shtil.ndvsdom54.ru/en/guides/windows-warning/",
+        "The build carries no publisher certificate, so Windows Defender may quarantine it: https://narvinir.github.io/shtil-vpn/en/guides/windows-warning/",
         "A subscription key comes from the Telegram bot @RealityVPNBot_bot; two-hour guest access works inside the app with no account at all."
     ],
     "checkver": {
